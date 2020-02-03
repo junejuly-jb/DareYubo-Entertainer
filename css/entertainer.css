@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: sans-serif;
+}
+.heading_1 {
+  color: #ff7f50;
+}
+.registration_button {
+  background-color: #ff7f50;
+  color: white;
+  border: 1px solid #ff7f50;
+  padding: 20px 20px;
+  border-radius: 50px;
+  transition: 0.5s;
+}
+.registration_button:hover {
+  background-color: white;
+  color: #ff7f50;
+  border: 1px solid #ff7f50;
+  padding: 20px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+}
+.gradient-section {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  color: white;
+}
+.entertainer-description {
+  text-align: center;
+}
+.earnings-headings {
+  color: #ff7f50;
+  font-weight: bold;
+}
+.card1 {
+  height: 370px;
+  width: 450px;
+  margin: auto;
+  border: none;
+  box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.1);
+}
+.total {
+  font-weight: bold;
+  color: #ff7f50;
+}
+.tips {
+  color: white;
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+.safety_features {
+  color: #ff7f50;
+  font-weight: bold;
+}
+.card2 {
+  height: 450px;
+  width: 700px;
+  margin: auto;
+  padding-left: 150px;
+  padding-top: 80px;
+  box-shadow: 0px 0px 11px rgba(0, 0, 0, 0.1);
+}
+li {
+  font-size: 22px;
+}
+.accordion_icon {
+  background-color: #ff7f50;
+  border: none;
+}
+.faq_heading {
+  color: #ff7f50;
+  font-weight: bold;
+}
+.anchor_footer {
+  font-size: 13px;
+  padding-right: 20px;
+  color: white;
+  text-decoration: none;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+.anchor_footer:hover {
+  color: #ff7f50;
+  text-decoration: none;
+}
+.li_footer {
+  border-right: 1px solid white;
+  padding: 0;
+  margin: 0;
+}
+.footer_div {
+  background-color: #323843;
+}
+@media screen and (min-width: 320px) and (max-width: 425px){
+  .heading_1{
+    font-size: 15px;
+  }
+  .googleplay{
+    width: 100px;
+  }
+} 
